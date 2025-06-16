@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mc Toussaint - Le Kiosque</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #000000;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #ff6600;
+      text-align: center;
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      max-width: 200px;
+      height: auto;
+    }
+    .section {
+      margin: 40px 0;
+    }
+    .menu-item {
+      background: #ff6600;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .price {
+      float: right;
+      font-weight: bold;
+      color: #f0f0f0;
+    }
+    .clear {
+      clear: both;
+    }
+    .note {
+      font-size: 0.9em;
+      color: #f0f0f0;
+    }
+    }
+    .l {
+      font-size: 0.9em;
+      color: #f0f0f0;
+    }
+	}
+    .texty {
+      font-size: 0.9em;
+      color: #f0f0f0;
+    }
+	.buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .buttons a {
+      display: inline-block;
+      background: #ff6600;
+      color: #fff;
+      padding: 12px 20px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .buttons a:hover {
+      background: #cc5200;
+    }
+    .footer-info {
+      text-align: center;
+      margin-top: 40px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://i.imgur.com/BFkU8SG.png" alt="Logo McToussaint">
+    </div>
+    <h1>MC TOUSSAINT<br>
+	(Le Kiosque)</h1>
+
+    <p style="text-align: center; font-size: 1.1em; color: #f0f0f0;">Burgers et frites maison - Vente à emporter avec tables à disposition</p>
+	  
+	  <p style="text-align: center; font-size: 1.1em; color: #f0f0f0;">⏰ Ouvert vendredi et samedi de 18h à 21h30 - Dimanche de 18h à 21h</p>
+      <p style="text-align: center; font-size: 1.1em; color: #f0f0f0;">Vendredi et samedi dernière commande à 21h15 - Dimanche dernière commande à 20h45</p>
+
+    <div class="section">
+      <h2>NOS BURGERS</h2>
+      <div class="menu-item"><span class="note"><strong>MC CHEESE</strong></span> <span class="price">9€</span><div class="clear"></div><p class="note">Pain buns, steak haché* Black Angus 200g ou poulet pané corn flakes, cheddar, oignons rouges, tomates, cornichons, sauce au choix</p></div>
+      <div class="menu-item"><span class="note"><strong>MC CHEVRE</strong></span><span class="price">11€</span><div class="clear"></div><p class="note">Pain buns, steak haché* Black Angus 200g ou poulet pané corn flakes, chèvre, oignons confits, miel, tomates, salade</p></div>
+      <div class="menu-item"><span class="note"><strong>MC TOMME</strong></span> <span class="price">12€</span><div class="clear"></div><p class="note">Pain buns, steak haché* Black Angus 200g ou poulet pané corn flakes, tomme de Savoie, lard grillé, oignons confits, tomates, salade, sauce au choix</p></div>
+      <div class="menu-item"><span class="note"><strong>MC MUNSTER</strong> </span><span class="price">13€</span><div class="clear"></div><p class="note">Pain buns, steak haché* Black Angus 200g ou poulet pané corn flakes, munster, lard grillé, oignons rouges, tomates, salade, sauce au choix</p></div>
+      <div class="menu-item"><span class="note"><strong>MC RACLETTE</strong></span> <span class="price">13€</span><div class="clear"></div><p class="note">Pain buns, steak haché* Black Angus 200g ou poulet pané corn flakes, raclette, lard grillé, oignons confits, tomates, salade, sauce au choix</p></div>
+	  <div class="menu-item"><span class="note"><strong>MC TOUSSAINT DU MOMENT</strong></span> <span class="price">15,5€</span><div class="clear"></div><p class="note">Recette du moment à retrouver sur les réseaux sociaux. Option poulet pané au corn flakes disponible</p></div>
+	  <div class="menu-item"><span class="texty"><strong>Sauce au choix</strong></span> <div class="clear"></div><p class="texty">Mayonnaise, ketchup, burger, moutarde américaine, barbecue, curry, andalouse, samouraï</div>
+	  <div class="menu-item"><span class="note"><strong>MENU ENFANT</strong></span> <span class="price">8,5€</span><div class="clear"></div><p class="note">Burger enfant, steak haché**, cheddar, ketchup, petite portion de frites, briquette de jus au choix, compote de pomme</p></div>
+	</div>
+
+	<p class="note">* Steak haché de bœuf surgelé, race Black Angus<br>
+    ** Steak haché de bœuf surgelé</p>
+
+    <div class="section">
+      <h2>SUPPLEMENTS</h2>
+      <div class="menu-item"><span class="note"><strong>Frites maison avec burger</strong></span> <span class="price">+3€</span><div class="clear"></div></div>
+      <div class="menu-item"><span class="note"><strong>Frites cheddar avec burger</strong></span> <span class="price">+4,5€</span><div class="clear"></div></div>
+      <div class="menu-item"><span class="note"><strong>Frites sans burger</strong></span> <span class="price">+4€</span><div class="clear"></div></div>
+      <div class="menu-item"><span class="note"><strong>Frites cheddar sans burger</strong></span> <span class="price">+5,5€</span><div class="clear"></div></div>
+      <div class="menu-item"><span class="note"><strong>Supplément steak haché</strong></span> <span class="price">+4,5€</span><div class="clear"></div></div>
+      <div class="menu-item"><span class="note"><strong>Supplément lard ou fromage</strong></span> <span class="price">+1,5€</span><div class="clear"></div></div>
+	</div>
+
+    <div class="section">
+      <h2>BOISSONS</h2>
+      <div class="menu-item"><span class="note"><strong>Eau plate (50cl)</strong></span> <span class="price">1€</span><div class="clear"></div></div>
+      <div class="menu-item"><span class="note"><strong>Eau gazeuse (50cl)</strong></span> <span class="price">1,5€</span><div class="clear"></div></div>
+      <div class="menu-item"><span class="note"><strong>Boissons 33cl</strong></span> <span class="price">2€</span><div class="clear"></div>
+        <p class="note">Coca-Cola, Coca-Cola Cherry, Fanta orange, Schweppes Agrumes, Sprite, Fuze Tea Pêche, Oasis tropical</p>
+      </div>
+      <div class="menu-item"><span class="note"><strong>Briquettes (20cl)</strong></span> <span class="price">1€</span><div class="clear"></div>
+        <p class="note">Jus de pomme, Jus d’orange</p>
+      </div>
+      <div class="menu-item"><span class="note"><strong>Bières & Vins</strong></span> <br>
+        <span class="note">Licorne Elsass (25cl)</span> <span class="price">2,5€</span><br>
+        <span class="note">Licorne El Grande (33cl)</span> <span class="price">3,5€</span><br>
+		<span class="note">Licorne Black (33cl)</span> <span class="price">3,5€</span><br>
+        <span class="note">Lindemans Kriek (25cl)</span> <span class="price">3,5€</span><br>
+        <span class="note">Blanc, Rosé, Rouge (75cl)</span> <span class="price">8,5€</span>
+      </div>
+    </div>
+
+
+    <div class="buttons">
+      
+	  <a href="https://www.facebook.com/share/1AWMWH76zb/" target="_blank">
+		<img src="https://i.imgur.com/bDsNBGD.png" alt="Instagram" style="height: 20px; vertical-align: middle; margin-right: 8px;">
+		Facebook
+	  </a>
+	  
+	  <a href="https://www.instagram.com/mctoussaintlekiosque" target="_blank">
+		<img src="https://i.imgur.com/YVK3Trv.png" alt="Instagram" style="height: 20px; vertical-align: middle; margin-right: 8px;">
+		Instagram
+	  </a>
+	  
+    </div>
+
+    <div class="buttons">
+
+	  <a href="https://g.co/kgs/ADA6ccw " target="_blank">
+		<img src="https://i.imgur.com/GADQGNM.png" alt="Google avis" style="height: 20px; vertical-align: middle; margin-right: 8px;">
+		Je laisse un avis Google
+		</a>
+		
+	  <a href="https://www.tripadvisor.fr/UserReviewEdit-g8341713-d28127113-Mc_Toussaint_le_Kiosque-Chanteheux_Meurthe_et_Moselle_Grand_Est.html" target="_blank">
+		<img src="https://i.imgur.com/SbnA0HW.png" alt="TripAdvisor" style="height: 20px; vertical-align: middle; margin-right: 8px;">
+		Je laisse un avis TripAdvisor
+	  </a>
+
+	<div class="buttons">
+
+		<a href="tel:0624700184">📞 Appeler le MC TOUSSAINT</a>
+
+	<div class="buttons">
+
+		<a href="https://www.google.fr/maps/place/MC+Toussaint+(le+kiosque+%C3%A0+burgers)/@48.5903903,6.5384355,14z/data=!4m6!3m5!1s0x47947f6fcd90b7ad:0xd9369e69c4081c5d!8m2!3d48.5903843!4d6.5530105!16s%2Fg%2F11y4t3sbrw?hl=fr&entry=ttu&g_ep=EgoyMDI1MDUwNS4wIKXMDSoASAFQAw%3D%3D">
+		<img src="https://i.imgur.com/IgJdvn2.png" alt="TripAdvisor" style="height: 20px; vertical-align: middle; margin-right: 8px;">
+		Adresse MC TOUSSAINT</a>
+
+    <div class="footer-info">
+      
+	  <p>Avril 2025</p>
+    </div>
+  </div>
+</body>
+</html>
